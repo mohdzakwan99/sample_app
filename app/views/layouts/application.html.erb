@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
+<<<<<<< HEAD
     <title><%= full_title(yield(:title)) %></title>
+=======
+    <title>SampleApp</title>
+>>>>>>> Init Project
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+<<<<<<< HEAD
     <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
     <%= javascript_pack_tag "application", "data-turbolinks-track": "reload" %>
   </head>
@@ -17,4 +22,13 @@
   </div>
 
 </body>
+=======
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+>>>>>>> Init Project
 </html>
