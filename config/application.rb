@@ -1,4 +1,5 @@
 require_relative "boot"
+<<<<<<< HEAD
 
 require "rails/all"
 
@@ -18,5 +19,14 @@ module SampleApp
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+=======
+require "rails/all"
+Bundler.require(*Rails.groups)
+module SampleApp
+  class Application < Rails::Application
+    config.load_defaults 6.1
+    config.i18n.available_locales = [:en, :ja]
+    config.i18n.default_locale = :en
+>>>>>>> chapter 6
   end
 end
