@@ -21,3 +21,7 @@ yarn-debug.log*
 .yarn-integrity
 config/database.yml
 config/credentials.yml.enc
+app/assets/stylesheets/static_pages.scss
+app/views/layouts/_header.html.erb
+app/views/layouts/application.html.erb
+app/views/static_pages/help.html.erb
