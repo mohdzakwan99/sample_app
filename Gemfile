@@ -18,8 +18,12 @@ gem "jquery-rails"
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
+gem "will_paginate", git: "https://github.com/mislav/will_paginate.git", branch: "master"
+gem "bootstrap-will_paginate", "1.0.0"
 
 group :development do
+
+  gem "faker"
   gem 'web-console', '>= 4.1.0'
   gem 'rack-mini-profiler', '~> 2.0'
   gem 'listen', '~> 3.3'
